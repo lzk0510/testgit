@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/javaweb</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">kun</property>
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">5</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">8</property>
+	</default-config>
+	<name-config name="kun">
+	<property name="initialPoolSize">5</property>
+		<property name="user">root</property>
+		<property name="password">kun</property>
+	</name-config>
+</c3p0-config>

@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+          body {  font-family:"Microsoft Yahei";  font-size:12px;  margin:0;  }
+          ul { padding:0;margin:0;  }
+          ul li {list-style-type:none; }
+          a {  text-decoration:none;  }
+          a:hover {  text-decoration:none;color:#f00;  }
+          .login {  margin:0 auto;  width:370px;  border:2px solid #eee;  position:relative;  }
+          .web_login {  width:370px;  position:relative;  }
+          .web_login .reg_form {  width:300px;  margin:0 auto;  }
+          .web_login input.inputstyle:focus,.web_login input.inputstyle:focus{border:1px solid #198BD4;box-shadow:0 0 2px #198BD4;}
+          .web_login .inputstyle {
+               width:200px;
+               height:34px;
+               padding-left:5px;
+               line-height:34px;
+               border:1px solid #D7D7D7;
+               background:#fff;
+               color:#333;border-radius:2px;
+               font-family:Verdana, Tahoma, Arial;
+               font-size:16px;
+               ime-mode:disabled;
+          }
+          .login {  border-color: #56A458;  padding:5px 0;  background: #fff;  }
+          .web_login{padding-bottom:20px;}
+          .web_login input.inputstyle:focus, .web_login input.inputstyle:focus {
+               border: 1px solid white;
+               box-shadow: 0 0 0;
+          }
+          .web_login .reg_form {  width: 300px;  margin: 0 auto;  }
+          .web_login .inputstyle {  border-radius:2px;  width:210px;  }
+          .button_blue
+          {
+               display:inline-block;
+               height:41px;
+               background:#2795dc;border:none;cursor:pointer;
+               color:#fff;
+               font-size:16px;
+               padding:0;
+               width:210px;
+               position: absolute;
+               left: 23%;
+               text-align:center;outline:none;font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+          }
+          input.button_blue:hover
+          {
+               background:#0081c1;
+               border-bottom:3px solid #006698;*border-bottom:none;
+               color:#fff;
+               text-decoration:none;
+          }
+          .reg_form li {  height: 55px;  }
+          .web_login .inputOuter {  width:200px;  text-align: center;  margin-left: 50px; margin-top:10px; }
+          .register{  color: blue;  position: absolute;  right: 0;  bottom: 0;  font-size: 20px;  }
